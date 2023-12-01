@@ -1,1 +1,78 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    border: 3px dashed red;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-grow: 1;
+}
+
+/*///////////////////Navigatie/////////////////////*/
+
+.outer-col-1 {
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+/*///////////////////Header/////////////////////*/
+
+.outer-col-2 {
+    flex-basis: auto;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-col-2 header {
+    height: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+/*///////////////////Aside/////////////////////*/
+
+.inner-row {
+    border: 3px dashed orange;
+
+
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.inner-row aside {
+    flex-basis: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*///////////////////Article & Footer/////////////////////*/
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.inner-col article {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.inner-col footer {
+    height: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
