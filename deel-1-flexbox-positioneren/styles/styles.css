@@ -1,1 +1,95 @@
 /*Schrijf hier jouw CSS*/
+* {
+    box-sizing: border-box;
+}
+
+/*///////////////OPDRACHT 1/////////////!**/
+
+.opdracht-1-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*///////////////OPDRACHT 2/////////////!**/
+
+.opdracht-2-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33%;
+    /*height: 250px;*/
+    /*width: 500px;*/
+}
+
+/*.opdracht-2-item {*/
+/*    flex-basis: 33%;*/
+/*}*/
+
+.opdracht-2-list li {
+    flex-basis: 33%
+}
+
+/*///////////////OPDRACHT 3/////////////!**/
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+/*.opdracht-3 li+li {*/
+/*    align-self: center;*/
+/*}*/
+
+.center {
+    align-self: center;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+/*///////////////OPDRACHT 4/////////////!**/
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*///////////////OPDRACHT 5/////////////!**/
+
+.opdracht-5 div {
+    /*border: 3px dashed indianred;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.opdracht-5 ul {
+    /*border: 3px dashed indianred;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-1 {
+    align-items: flex-start;
+}
+
+.list-2 {
+    align-items: center;
+}
+
+.list-3 {
+    align-items: flex-end;
+}
