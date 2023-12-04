@@ -1,1 +1,106 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
+
+/* //////////////////////General////////////////////// */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3D9;
+    min-height: 100vh;
+}
+
+/* //////////////////////Typography////////////////////// */
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a:link,
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+a:hover {
+    color: #DC9E82;
+    text-decoration: underline;
+}
+
+
+
+/* //////////////////////Header////////////////////// */
+
+header {
+    background-color: #030027;
+    color: #FFF;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* //////////////////////Main////////////////////// */
+
+body > main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+main section {
+    min-height: 100px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 20px
+}
+
+.boxes section {
+    background-color: #C16E70;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 20px;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 350px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
